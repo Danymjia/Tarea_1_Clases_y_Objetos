@@ -1,5 +1,6 @@
 public class Libro {
 
+    //Primer repaso//
     //Atributos
     String titulo;
     String autor;

@@ -142,6 +142,21 @@ public class Main {
         miInstrumento.setTonoInstrumento(tonoInstrumento);
         miInstrumento.mostrarInstrumento();
 
+        //Pelicula
+        System.out.println("--------Pelicula--------");
+        System.out.println("Ingrese el nombre de la pelicula: ");
+        String nombrePelicula = sc.nextLine();
+        System.out.println("Ingrese el autor de la pelicula: ");
+        String autorPelicula = sc.nextLine();
+        System.out.println("Ingrese el genero de la pelicula: ");
+        String generoPelicula = sc.nextLine();
+        Pelicula miPelicula = new Pelicula("","","");
+
+        miPelicula.setTitulo(nombrePelicula);
+        miPelicula.setAutor(autorPelicula);
+        miPelicula.setGenero(generoPelicula);
+        miPelicula.mostrarPelicula();
+
     }
 }
 
